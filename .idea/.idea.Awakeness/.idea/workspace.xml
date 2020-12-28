@@ -24,21 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f84acb-4681-40b7-bde9-682141ab559f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness.Target.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/Awakeness.Build.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/Awakeness.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/Awakeness.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Enum/ItemCategory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Items/ItemEmpty/ItemEmpty.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Items/ItemEmpty/ItemEmpty.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Struct/InventorySlot.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Struct/ItemInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/AwakenessEditor.Target.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Awakeness.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Awakeness.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,14 +285,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608841301816</updated>
-      <workItem from="1608841328770" duration="1102000" />
+      <workItem from="1608841328770" duration="1690000" />
+      <workItem from="1608918474197" duration="173000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -318,6 +305,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
