@@ -16,8 +16,8 @@ AMasterItem::AMasterItem()
 // Called when the game starts or when spawned
 void AMasterItem::BeginPlay()
 {
-	Super::BeginPlay();
 	Id = Hash();
+	Super::BeginPlay();
 }
 
 // Called every frame

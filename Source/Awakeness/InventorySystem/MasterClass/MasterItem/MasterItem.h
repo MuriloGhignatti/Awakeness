@@ -9,7 +9,7 @@
 #include "GenericPlatform/GenericPlatform.h"
 #include "MasterItem.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class AWAKENESS_API AMasterItem : public AActor
 {
 	GENERATED_BODY()

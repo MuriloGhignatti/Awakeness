@@ -24,7 +24,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f84acb-4681-40b7-bde9-682141ab559f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditorSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditorSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/MainWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/MainWidget.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_Inventory.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Inventory.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/InventorySlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/InventorySlot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +47,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Source/Awakeness/Awakeness.Build.cs" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterItem/MasterItem.cpp" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterItem/MasterItem.h" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.h" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Struct/InventorySlot.h" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Struct/ItemInfo.h" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Enum/ItemCategory.h" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.cpp" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Items/ItemEmpty/ItemEmpty.h" />
-        <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/Items/ItemEmpty/ItemEmpty.cpp" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.cpp" />
+      <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MyActor.cpp" />
+      <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.h" />
+      <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" />
+      <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1m7OjVO7M7elGOk2ou73trNU89L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,7 +66,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -287,6 +297,8 @@
       <updated>1608841301816</updated>
       <workItem from="1608841328770" duration="1690000" />
       <workItem from="1608918474197" duration="173000" />
+      <workItem from="1611870442360" duration="626000" />
+      <workItem from="1611949024447" duration="4917000" />
     </task>
     <servers />
   </component>
@@ -309,5 +321,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CppProject">
+        <watch expression="Slots" language="C++" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

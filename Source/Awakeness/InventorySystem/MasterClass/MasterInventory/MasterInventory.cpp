@@ -51,19 +51,19 @@ int32 AMasterInventory::SearchEmptySlot()
 	return INDEX_NONE;
 }
 
-int32 AMasterInventory::SearchFreeStack(AMasterItem* ItemClass)
+int32 AMasterInventory::SearchFreeStack(TSubclassOf<class AMasterItem> ItemClass)
 {
 	for(short i = 0; i < Slots.Num(); i++)
-		if(!IsSlotEmpty(i) && Slots[i].ItemClass->Id == ItemClass->Id && Slots[i].Amount < MaxStackSize)
+		if(!IsSlotEmpty(i) && Slots[i].ItemClass->Id == ItemClass.GetDefaultObject()->Id && Slots[i].Amount < MaxStackSize)
 			return i;
 	
 	return INDEX_NONE;
 }
 
-int32 AMasterInventory::AddItem(AMasterItem* ItemClass, const int32 Amount)
+int32 AMasterInventory::AddItem(TSubclassOf<class AMasterItem> ItemClass, const int32 Amount)
 {
 	int FoundIndex = INDEX_NONE;
-	if(ItemClass->ItemInfo.Stackable)
+	if(ItemClass.GetDefaultObject()->ItemInfo.Stackable)
 	{
 		if((FoundIndex = SearchFreeStack(ItemClass)) != INDEX_NONE)
 		{
@@ -86,13 +86,13 @@ int32 AMasterInventory::AddItem(AMasterItem* ItemClass, const int32 Amount)
 			{
 				if(Amount > MaxStackSize)
 				{
-					Slots[FoundIndex] = FInventorySlot{ItemClass, MaxStackSize};
+					Slots[FoundIndex] = FInventorySlot{NewObject<AMasterItem>(ItemClass, ItemClass), MaxStackSize};
 					UpdateSlotWidget(FoundIndex);
 					return AddItem(ItemClass, Amount - MaxStackSize);
 				}
 				else
 				{
-					Slots[FoundIndex] = FInventorySlot{ItemClass, Amount};
+					Slots[FoundIndex] = FInventorySlot{NewObject<AMasterItem>(ItemClass, ItemClass), Amount};
 					UpdateSlotWidget(FoundIndex);
 					return 0;
 				}
@@ -105,7 +105,7 @@ int32 AMasterInventory::AddItem(AMasterItem* ItemClass, const int32 Amount)
 	{
 		if((FoundIndex = SearchEmptySlot()) != INDEX_NONE)
 		{
-			Slots[FoundIndex] = FInventorySlot{ItemClass, 1};
+			Slots[FoundIndex] = FInventorySlot{NewObject<AMasterItem>(ItemClass, ItemClass), 1};
 			UpdateSlotWidget(FoundIndex);
 			if(Amount > 1)
 				return AddItem(ItemClass, Amount - 1);

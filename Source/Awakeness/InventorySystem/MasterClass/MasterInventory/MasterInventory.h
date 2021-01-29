@@ -50,9 +50,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	int32 SearchEmptySlot();
 	UFUNCTION(BlueprintCallable)
-	int32 SearchFreeStack(AMasterItem* ItemClass);
+	int32 SearchFreeStack(TSubclassOf<class AMasterItem> ItemClass);
 	UFUNCTION(BlueprintCallable)
-	int32 AddItem(AMasterItem* ItemClass, const int32 Amount);
+	int32 AddItem(TSubclassOf<class AMasterItem> ItemClass, const int32 Amount);
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	int32 GetAmountAtIndex(const int32 Index);
 	UFUNCTION(BlueprintCallable)
