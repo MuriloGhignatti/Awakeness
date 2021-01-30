@@ -24,20 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f84acb-4681-40b7-bde9-682141ab559f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditorSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditorSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/MainWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/MainWidget.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_Inventory.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Inventory.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/InventorySlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/InventorySlot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_PickupActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_PickupActor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/Items/BP_HealthPotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/Items/BP_HealthPotion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/S_Pickup.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +292,8 @@
       <workItem from="1608841328770" duration="1690000" />
       <workItem from="1608918474197" duration="173000" />
       <workItem from="1611870442360" duration="626000" />
-      <workItem from="1611949024447" duration="4917000" />
+      <workItem from="1611949024447" duration="6133000" />
+      <workItem from="1611972123686" duration="988000" />
     </task>
     <servers />
   </component>

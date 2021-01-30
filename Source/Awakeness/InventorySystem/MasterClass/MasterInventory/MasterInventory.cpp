@@ -124,7 +124,13 @@ int32 AMasterInventory::GetAmountAtIndex(const int32 Index)
 
 bool AMasterInventory::RemoveItemAtIndex(const int32 Index, const int32 Amount)
 {
-	if(Slots[Index].Amount >= Amount)
+	if(Slots[Index].Amount <= Amount)
+	{
+		Slots[Index].ItemClass = nullptr;
+		UpdateSlotWidget(Index);
+		return true;
+	}
+	else if(Slots[Index].Amount == Amount)
 	{
 		Slots[Index].ItemClass = nullptr;
 		UpdateSlotWidget(Index);
@@ -170,19 +176,8 @@ bool AMasterInventory::UseItemAtIndex(const int32 Index, const int32 Amount)
 	if(IsSlotEmpty(Index))
 		return false;
 	
-	if(Slots[Index].Amount < Amount)
-	{
-		Slots[Index].ItemClass->OnUse(Amount);
-		Slots[Index].ItemClass = nullptr;
-		Slots[Index].Amount = 0;
-		UpdateSlotWidget(Index);
-	}
-	else
-	{
-		Slots[Index].ItemClass->OnUse(Amount);
-		Slots[Index].Amount -= Amount;
-		UpdateSlotWidget(Index);
-	}
+	Slots[Index].ItemClass->OnUse(Amount);
+	RemoveItemAtIndex(Index, Amount);
 	return true;
 }
 
