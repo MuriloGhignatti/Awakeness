@@ -8,14 +8,14 @@ AMasterInventory::AMasterInventory()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	SlotsInited = true;
+	InitSlots();
 }
 
 // Called when the game starts or when spawned
 void AMasterInventory::BeginPlay()
 {
-	Super::BeginPlay();
 	InitSlots();
+	Super::BeginPlay();
 }
 
 // Called every frame

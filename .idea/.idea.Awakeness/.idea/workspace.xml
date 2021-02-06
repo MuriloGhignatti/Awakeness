@@ -26,12 +26,14 @@
     <list default="true" id="f1f84acb-4681-40b7-bde9-682141ab559f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/MainWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/MainWidget.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_PickupActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_PickupActor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/Items/BP_HealthPotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/Items/BP_HealthPotion.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/S_Pickup.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Hotbar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Hotbar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Inventory.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +51,8 @@
       <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.cpp" />
       <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MyActor.cpp" />
       <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterItem/MasterItem.h" />
-      <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" />
       <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" />
+      <option value="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m7OjVO7M7elGOk2ou73trNU89L" />
@@ -294,6 +296,8 @@
       <workItem from="1611870442360" duration="626000" />
       <workItem from="1611949024447" duration="6133000" />
       <workItem from="1611972123686" duration="988000" />
+      <workItem from="1612116819438" duration="452000" />
+      <workItem from="1612138755277" duration="1669000" />
     </task>
     <servers />
   </component>

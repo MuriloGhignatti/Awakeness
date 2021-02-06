@@ -72,8 +72,7 @@ public:
 	{
 		if(!SlotsInited)
 		{
-			Slots.Init(FInventorySlot{nullptr, 0}, AmountOfSlots);
-			SlotsInited = true;
+			InitSlots();
 		}
 		return Slots;
 	}
@@ -81,13 +80,23 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void InitSlots()
 	{
-		Slots.Init(FInventorySlot{nullptr, 0}, AmountOfSlots + AmountOfSlotsInHotbar);
+		if(!SlotsInited)
+		{
+			Slots.Init(FInventorySlot{nullptr, 0}, (AmountOfSlots + AmountOfSlotsInHotbar) + 1);
+			SlotsInited = true;
+		}
 	}
 	
 	UFUNCTION(BlueprintGetter)
 	bool GetSlotsInited()
 	{
 		return SlotsInited;
+	}
+
+	UFUNCTION(BlueprintGetter)
+	int32 GetSlotsSize()
+	{
+		return Slots.Num();
 	}
 	
 };
