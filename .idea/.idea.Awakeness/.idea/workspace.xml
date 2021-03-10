@@ -24,16 +24,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f84acb-4681-40b7-bde9-682141ab559f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Awakeness/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditorSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditorSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/MainWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/MainWidget.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_PickupActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/BP_PickupActor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/Items/BP_HealthPotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Blueprints/Items/BP_HealthPotion.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Hotbar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Hotbar.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/Inventory.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Awakeness/InventorySystem/MasterClass/MasterInventory/MasterInventory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InventorySystem/Widgets/InventorySlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InventorySystem/Widgets/InventorySlot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MSPresets/MSAssets.db" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MSPresets/MSAssets.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +49,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -298,6 +302,7 @@
       <workItem from="1611972123686" duration="988000" />
       <workItem from="1612116819438" duration="452000" />
       <workItem from="1612138755277" duration="1669000" />
+      <workItem from="1615337580753" duration="117000" />
     </task>
     <servers />
   </component>
